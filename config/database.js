@@ -3,7 +3,7 @@ var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
   password : 'root',
-  database : 'todo collation'
+  database : 'todo'
 });
 
 connection.connect();
